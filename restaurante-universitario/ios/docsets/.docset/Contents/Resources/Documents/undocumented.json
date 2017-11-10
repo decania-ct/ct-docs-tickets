@@ -1,0 +1,117 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 10,
+      "symbol": "FloatRatingViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 30,
+      "symbol": "FloatRatingView.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 137,
+      "symbol": "FloatRatingView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 143,
+      "symbol": "FloatRatingView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 264,
+      "symbol": "FloatRatingView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 292,
+      "symbol": "FloatRatingView.touchesBegan(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 299,
+      "symbol": "FloatRatingView.touchesMoved(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 306,
+      "symbol": "FloatRatingView.touchesEnded(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/FloatRatingView.swift",
+      "line": 311,
+      "symbol": "FloatRatingView.touchesCancelled(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "line": 38,
+      "symbol": "ToastPosition",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "line": 39,
+      "symbol": "ToastPosition.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "line": 40,
+      "symbol": "ToastPosition.center",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "line": 41,
+      "symbol": "ToastPosition.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "line": 420,
+      "symbol": "UIView.handleToastTapped(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "line": 427,
+      "symbol": "UIView.toastTimerDidFinish(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "line": 593,
+      "symbol": "ToastStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS"
+}

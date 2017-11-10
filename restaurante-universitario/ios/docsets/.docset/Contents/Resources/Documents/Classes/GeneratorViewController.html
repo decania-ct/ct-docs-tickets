@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GeneratorViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/GeneratorViewController" class="dashAnchor"></a>
+    <a title="GeneratorViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (22% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GeneratorViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FloatRatingView.html">FloatRatingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GeneratorViewController.html">GeneratorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientView.html">GradientView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HoursTableViewCell.html">HoursTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HoursTableViewController.html">HoursTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InitialViewController.html">InitialViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationsTableViewCell.html">NotificationsTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationsViewController.html">NotificationsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OptionsTableViewCell.html">OptionsTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OptionsTableViewController.html">OptionsTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RatingViewController.html">RatingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SchedulesTableViewCell.html">SchedulesTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SchedulesViewController.html">SchedulesViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchResultViewController.html">SearchResultViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchViewController.html">SearchViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ticket.html">Ticket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ticket/Status.html">– Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketTableViewCell.html">TicketTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketViewController.html">TicketViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToastManager.html">ToastManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ToastPosition.html">ToastPosition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage/RotationOptions.html">– RotationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/FloatRatingViewDelegate.html">FloatRatingViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AppUtility.html">AppUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastStyle.html">ToastStyle</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GeneratorViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">GeneratorViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UIPickerViewDataSource</span><span class="p">,</span> <span class="kt">UIPickerViewDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)textID"></a>
+                    <a name="//apple_ref/swift/Property/textID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)textID">textID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">textID</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)pickerAttendance"></a>
+                    <a name="//apple_ref/swift/Property/pickerAttendance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)pickerAttendance">pickerAttendance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">pickerAttendance</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)pickerTime"></a>
+                    <a name="//apple_ref/swift/Property/pickerTime" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)pickerTime">pickerTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">pickerTime</span><span class="p">:</span> <span class="kt">UIDatePicker</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)buttonSend"></a>
+                    <a name="//apple_ref/swift/Property/buttonSend" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)buttonSend">buttonSend</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">buttonSend</span><span class="p">:</span> <span class="kt">UIButton</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)switchCPF"></a>
+                    <a name="//apple_ref/swift/Property/switchCPF" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)switchCPF">switchCPF</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">switchCPF</span><span class="p">:</span> <span class="kt">UISwitch</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)scrollView"></a>
+                    <a name="//apple_ref/swift/Property/scrollView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)scrollView">scrollView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)pickerDataSource"></a>
+                    <a name="//apple_ref/swift/Property/pickerDataSource" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)pickerDataSource">pickerDataSource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">pickerDataSource</span> <span class="o">=</span> <span class="p">[</span><span class="kt">String</span><span class="p">]()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)base_url"></a>
+                    <a name="//apple_ref/swift/Property/base_url" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)base_url">base_url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">base_url</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"http://ru-api-dev.t.ct.ufrj.br/queues?status=AVALIABLE&amp;extra=STATISTICS"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)queue_id"></a>
+                    <a name="//apple_ref/swift/Property/queue_id" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)queue_id">queue_id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">queue_id</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">""</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)dictionary"></a>
+                    <a name="//apple_ref/swift/Property/dictionary" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)dictionary">dictionary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">dictionary</span> <span class="o">=</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">String</span><span class="p">]()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)loadingView"></a>
+                    <a name="//apple_ref/swift/Property/loadingView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)loadingView">loadingView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>View which contains the loading text and the spinner</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">loadingView</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)spinner"></a>
+                    <a name="//apple_ref/swift/Property/spinner" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)spinner">spinner</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Spinner shown during load the TableView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">spinner</span> <span class="o">=</span> <span class="kt">UIActivityIndicatorView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)loadingLabel"></a>
+                    <a name="//apple_ref/swift/Property/loadingLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)loadingLabel">loadingLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text shown during load the TableView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">loadingLabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)didReceiveMemoryWarning"></a>
+                    <a name="//apple_ref/swift/Method/didReceiveMemoryWarning()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)didReceiveMemoryWarning">didReceiveMemoryWarning()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)didBecomeActive"></a>
+                    <a name="//apple_ref/swift/Method/didBecomeActive()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)didBecomeActive">didBecomeActive()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">didBecomeActive</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)dismissKeyboard"></a>
+                    <a name="//apple_ref/swift/Method/dismissKeyboard()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)dismissKeyboard">dismissKeyboard()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">dismissKeyboard</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)switchChangeListener:"></a>
+                    <a name="//apple_ref/swift/Method/switchChangeListener(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)switchChangeListener:">switchChangeListener(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">switchChangeListener</span><span class="p">(</span><span class="n">_</span> <span class="nv">switchButton</span><span class="p">:</span> <span class="kt">UISwitch</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)saveCPF:"></a>
+                    <a name="//apple_ref/swift/Method/saveCPF(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)saveCPF:">saveCPF(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">saveCPF</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)reloadTimePicker"></a>
+                    <a name="//apple_ref/swift/Method/reloadTimePicker()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)reloadTimePicker">reloadTimePicker()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">reloadTimePicker</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)reloadAttendancePickerData"></a>
+                    <a name="//apple_ref/swift/Method/reloadAttendancePickerData()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)reloadAttendancePickerData">reloadAttendancePickerData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">reloadAttendancePickerData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)sendFunction"></a>
+                    <a name="//apple_ref/swift/Method/sendFunction()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)sendFunction">sendFunction()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">sendFunction</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)numberOfComponentsInPickerView:"></a>
+                    <a name="//apple_ref/swift/Method/numberOfComponents(in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)numberOfComponentsInPickerView:">numberOfComponents(in:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">numberOfComponents</span><span class="p">(</span><span class="k">in</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)pickerView:numberOfRowsInComponent:"></a>
+                    <a name="//apple_ref/swift/Method/pickerView(_:numberOfRowsInComponent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)pickerView:numberOfRowsInComponent:">pickerView(_:numberOfRowsInComponent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="n">_</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">numberOfRowsInComponent</span> <span class="nv">component</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)pickerView:titleForRow:forComponent:"></a>
+                    <a name="//apple_ref/swift/Method/pickerView(_:titleForRow:forComponent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)pickerView:titleForRow:forComponent:">pickerView(_:titleForRow:forComponent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="n">_</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">titleForRow</span> <span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">forComponent</span> <span class="nv">component</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)pickerView:viewForRow:forComponent:reusingView:"></a>
+                    <a name="//apple_ref/swift/Method/pickerView(_:viewForRow:forComponent:reusing:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)pickerView:viewForRow:forComponent:reusingView:">pickerView(_:viewForRow:forComponent:reusing:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="n">_</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">viewForRow</span> <span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">forComponent</span> <span class="nv">component</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">reusing</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">UIView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewWillDisappear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewWillDisappear:">viewWillDisappear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewWillTransitionToSize:withTransitionCoordinator:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillTransition(to:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)viewWillTransitionToSize:withTransitionCoordinator:">viewWillTransition(to:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillTransition</span><span class="p">(</span><span class="n">to</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">,</span> <span class="n">with</span> <span class="nv">coordinator</span><span class="p">:</span> <span class="kt">UIViewControllerTransitionCoordinator</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)addLoadingIndicatorTo:"></a>
+                    <a name="//apple_ref/swift/Method/addLoadingIndicator(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)addLoadingIndicatorTo:">addLoadingIndicator(to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">addLoadingIndicator</span><span class="p">(</span><span class="n">to</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)removeLoadingIndicator"></a>
+                    <a name="//apple_ref/swift/Method/removeLoadingIndicator()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)removeLoadingIndicator">removeLoadingIndicator()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">removeLoadingIndicator</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

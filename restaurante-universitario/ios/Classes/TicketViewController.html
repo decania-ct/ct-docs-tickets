@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TicketViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TicketViewController" class="dashAnchor"></a>
+    <a title="TicketViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (22% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TicketViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FloatRatingView.html">FloatRatingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GeneratorViewController.html">GeneratorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientView.html">GradientView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HoursTableViewCell.html">HoursTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HoursTableViewController.html">HoursTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InitialViewController.html">InitialViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationsTableViewCell.html">NotificationsTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationsViewController.html">NotificationsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OptionsTableViewCell.html">OptionsTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OptionsTableViewController.html">OptionsTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RatingViewController.html">RatingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SchedulesTableViewCell.html">SchedulesTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SchedulesViewController.html">SchedulesViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchResultViewController.html">SearchResultViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchViewController.html">SearchViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ticket.html">Ticket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ticket/Status.html">– Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketTableViewCell.html">TicketTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketViewController.html">TicketViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToastManager.html">ToastManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ToastPosition.html">ToastPosition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage/RotationOptions.html">– RotationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/FloatRatingViewDelegate.html">FloatRatingViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AppUtility.html">AppUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastStyle.html">ToastStyle</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TicketViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">TicketViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">CAAnimationDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)ticket"></a>
+                    <a name="//apple_ref/swift/Property/ticket" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)ticket">ticket</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">ticket</span><span class="p">:</span> <span class="kt">NSDictionary</span> <span class="o">=</span> <span class="p">[:]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)attendance"></a>
+                    <a name="//apple_ref/swift/Property/attendance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)attendance">attendance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">attendance</span> <span class="o">=</span> <span class="s">""</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)innerView"></a>
+                    <a name="//apple_ref/swift/Property/innerView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)innerView">innerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">innerView</span><span class="p">:</span> <span class="kt">UIView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)photoIV"></a>
+                    <a name="//apple_ref/swift/Property/photoIV" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)photoIV">photoIV</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">photoIV</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)cpfLabel"></a>
+                    <a name="//apple_ref/swift/Property/cpfLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)cpfLabel">cpfLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">cpfLabel</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)trashIV"></a>
+                    <a name="//apple_ref/swift/Property/trashIV" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)trashIV">trashIV</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">trashIV</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)hourLabel"></a>
+                    <a name="//apple_ref/swift/Property/hourLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)hourLabel">hourLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">hourLabel</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)attendanceLabel"></a>
+                    <a name="//apple_ref/swift/Property/attendanceLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)attendanceLabel">attendanceLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">attendanceLabel</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)qrCodeIV"></a>
+                    <a name="//apple_ref/swift/Property/qrCodeIV" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)qrCodeIV">qrCodeIV</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">qrCodeIV</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)viewLeft"></a>
+                    <a name="//apple_ref/swift/Property/viewLeft" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)viewLeft">viewLeft</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">viewLeft</span><span class="p">:</span> <span class="kt">UIView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)viewRight"></a>
+                    <a name="//apple_ref/swift/Property/viewRight" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)viewRight">viewRight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">viewRight</span><span class="p">:</span> <span class="kt">UIView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)restauranteUniversitário"></a>
+                    <a name="//apple_ref/swift/Property/restauranteUniversitário" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)restauranteUniversitário">restauranteUniversitário</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">restauranteUniversitário</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)eTicket"></a>
+                    <a name="//apple_ref/swift/Property/eTicket" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)eTicket">eTicket</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">eTicket</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)dataHora"></a>
+                    <a name="//apple_ref/swift/Property/dataHora" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)dataHora">dataHora</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">dataHora</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)atendimento"></a>
+                    <a name="//apple_ref/swift/Property/atendimento" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)atendimento">atendimento</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">atendimento</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)refreshImage"></a>
+                    <a name="//apple_ref/swift/Property/refreshImage" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)refreshImage">refreshImage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">refreshImage</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)rotateMessage"></a>
+                    <a name="//apple_ref/swift/Property/rotateMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)rotateMessage">rotateMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">rotateMessage</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)gradientView"></a>
+                    <a name="//apple_ref/swift/Property/gradientView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(py)gradientView">gradientView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">gradientView</span><span class="p">:</span> <span class="kt"><a href="../Classes/GradientView.html">GradientView</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)didBecomeActive"></a>
+                    <a name="//apple_ref/swift/Method/didBecomeActive()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)didBecomeActive">didBecomeActive()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">didBecomeActive</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)loadLandscape"></a>
+                    <a name="//apple_ref/swift/Method/loadLandscape()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)loadLandscape">loadLandscape()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">loadLandscape</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)loadPortrait"></a>
+                    <a name="//apple_ref/swift/Method/loadPortrait()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)loadPortrait">loadPortrait()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">loadPortrait</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)imageTappedWithTapGestureRecognizer:"></a>
+                    <a name="//apple_ref/swift/Method/imageTapped(tapGestureRecognizer:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)imageTappedWithTapGestureRecognizer:">imageTapped(tapGestureRecognizer:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">imageTapped</span><span class="p">(</span><span class="nv">tapGestureRecognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)didReceiveMemoryWarning"></a>
+                    <a name="//apple_ref/swift/Method/didReceiveMemoryWarning()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)didReceiveMemoryWarning">didReceiveMemoryWarning()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewWillDisappear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewWillDisappear:">viewWillDisappear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)getDataFromUrlWithUrl:completion:"></a>
+                    <a name="//apple_ref/swift/Method/getDataFromUrl(url:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)getDataFromUrlWithUrl:completion:">getDataFromUrl(url:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">getDataFromUrl</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?,</span> <span class="n">_</span>  <span class="nv">response</span><span class="p">:</span> <span class="kt">URLResponse</span><span class="p">?,</span> <span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)downloadImageWithUrl:"></a>
+                    <a name="//apple_ref/swift/Method/downloadImage(url:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)downloadImageWithUrl:">downloadImage(url:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">downloadImage</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)resizeImageWithImage:targetSize:"></a>
+                    <a name="//apple_ref/swift/Method/resizeImage(image:targetSize:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)resizeImageWithImage:targetSize:">resizeImage(image:targetSize:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">resizeImage</span><span class="p">(</span><span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">,</span> <span class="nv">targetSize</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIImage</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewWillTransitionToSize:withTransitionCoordinator:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillTransition(to:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)TicketViewController(im)viewWillTransitionToSize:withTransitionCoordinator:">viewWillTransition(to:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillTransition</span><span class="p">(</span><span class="n">to</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">,</span> <span class="n">with</span> <span class="nv">coordinator</span><span class="p">:</span> <span class="kt">UIViewControllerTransitionCoordinator</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
