@@ -14,7 +14,7 @@
     <a title="HoursTableViewController Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (22% documented)</p>
+        <p><a href="../index.html"> Docs</a> (88% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -37,9 +37,6 @@
                 <a href="../Classes/FloatRatingView.html">FloatRatingView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/GeneratorViewController.html">GeneratorViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/GradientView.html">GradientView</a>
               </li>
               <li class="nav-group-task">
@@ -49,7 +46,7 @@
                 <a href="../Classes/HoursTableViewController.html">HoursTableViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/InitialViewController.html">InitialViewController</a>
+                <a href="../Classes/MenuViewController.html">MenuViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/NotificationsTableViewCell.html">NotificationsTableViewCell</a>
@@ -64,19 +61,16 @@
                 <a href="../Classes/OptionsTableViewController.html">OptionsTableViewController</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/QueuesTableViewCell.html">QueuesTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QueuesViewController.html">QueuesViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/RatingViewController.html">RatingViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/SchedulesTableViewCell.html">SchedulesTableViewCell</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SchedulesViewController.html">SchedulesViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/SearchResultViewController.html">SearchResultViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SearchViewController.html">SearchViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Ticket.html">Ticket</a>
@@ -85,21 +79,16 @@
                 <a href="../Classes/Ticket/Status.html">– Status</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TicketAllocatorViewController.html">TicketAllocatorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketSearcherViewController.html">TicketSearcherViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TicketTableViewCell.html">TicketTableViewCell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TicketViewController.html">TicketViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/ToastManager.html">ToastManager</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Enums/ToastPosition.html">ToastPosition</a>
               </li>
             </ul>
           </li>
@@ -107,13 +96,10 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/UIApplication.html">UIApplication</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage.html">UIImage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage/RotationOptions.html">– RotationOptions</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIView.html">UIView</a>
@@ -137,9 +123,6 @@
               <li class="nav-group-task">
                 <a href="../Structs/AppUtility.html">AppUtility</a>
               </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ToastStyle.html">ToastStyle</a>
-              </li>
             </ul>
           </li>
         </ul>
@@ -154,7 +137,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Controller for the screen that displays the hours and the pricing</p>
 
           </section>
           <section class="section task-group-section">
@@ -173,7 +156,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>the array of OUs</p>
 
                       </div>
                       <div class="declaration">
@@ -200,7 +183,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Called after the controller&#39;s view is loaded into memory.
+This method is called after the view controller has loaded its view hierarchy into memory. This method is called regardless of whether the view hierarchy was loaded from a nib file or created programmatically in the loadView() method. You usually override this method to perform additional initialization on views that were loaded from nib files</p>
 
                       </div>
                       <div class="declaration">
@@ -227,7 +211,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Sent to the view controller when the app receives a memory warning.
+Your app never calls this method directly. Instead, this method is called when the system determines that the amount of available memory is low.
+You can override this method to release any additional memory used by your view controller. If you do, your implementation of this method must call the super implementation at some point.</p>
 
                       </div>
                       <div class="declaration">
@@ -254,7 +240,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the view controller that its view is about to be added to a view hierarchy.
+This method is called before the view controller&#39;s view is about to be added to a view hierarchy and before any animations are configured for showing the view. You can override this method to perform custom tasks associated with displaying the view. For example, you might use this method to change the orientation or style of the status bar to coordinate with the orientation or style of the view being presented. If you override this method, you must call super at some point in your implementation.
+For more information about the how views are added to view hierarchies by a view controller, and the sequence of messages that occur, see Supporting Accessibility.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    If a view controller is presented by a view controller inside of a popover, this method is not invoked on the presenting view controller after the presented controller is dismissed.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -264,6 +257,25 @@
                           <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If true, the view is being added to the window using an animation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -281,7 +293,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method is called everytime the view becomes active.</p>
 
                       </div>
                       <div class="declaration">
@@ -308,7 +320,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the view controller that its view is about to be removed from a view hierarchy.
+This method is called in response to a view being removed from a view hierarchy. This method is called before the view is actually removed and before any animations are configured.
+Subclasses can override this method and use it to commit editing changes, resign the first responder status of the view, or perform other relevant tasks. For example, you might use this method to revert changes to the orientation or style of the status bar that were made in the viewDidAppear(_:) method when the view was first presented. If you override this method, you must call super at some point in your implementation.</p>
 
                       </div>
                       <div class="declaration">
@@ -319,20 +333,28 @@
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If true, the disappearance of the view is being animated.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Table%20view%20data%20source"></a>
-                <a name="//apple_ref/swift/Section/Table view data source" class="dashAnchor"></a>
-                <a href="#/Table%20view%20data%20source">
-                  <h3 class="section-name">Table view data source</h3>
-                </a>
-              </div>
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -346,7 +368,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Asks the data source to return the number of sections in the table view.</p>
 
                       </div>
                       <div class="declaration">
@@ -356,6 +378,29 @@
                           <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">numberOfSections</span><span class="p">(</span><span class="k">in</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tableView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object representing the table view requesting this information.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The number of sections in tableView. The default value is 1.</p>
                       </div>
                     </section>
                   </div>
@@ -373,7 +418,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Tells the data source to return the number of rows in a given section of a table view.</p>
 
                       </div>
                       <div class="declaration">
@@ -383,6 +428,38 @@
                           <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">numberOfRowsInSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tableView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The table-view object requesting this information.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>section</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An index number identifying a section in tableView.
+Returns: The number of rows in section.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -400,7 +477,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Asks the data source for a cell to insert in a particular location of the table view.
+The returned UITableViewCell object is frequently one that the application reuses for performance reasons. You should fetch a previously created cell object that is marked for reuse by sending a dequeueReusableCell(withIdentifier:) message to tableView. Various attributes of a table cell are set automatically based on whether the cell is a separator and on information the data source provides, such as for accessory views and editing controls.</p>
 
                       </div>
                       <div class="declaration">
@@ -411,6 +489,41 @@
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tableView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A table-view object requesting the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An index path locating a row in tableView.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An object inheriting from UITableViewCell that the table view can use for the specified row. An assertion is raised if you return nil.</p>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -419,7 +532,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-09)</p>
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-24)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

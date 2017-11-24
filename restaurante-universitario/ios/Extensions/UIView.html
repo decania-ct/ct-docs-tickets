@@ -14,7 +14,7 @@
     <a title="UIView Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (22% documented)</p>
+        <p><a href="../index.html"> Docs</a> (88% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -37,9 +37,6 @@
                 <a href="../Classes/FloatRatingView.html">FloatRatingView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/GeneratorViewController.html">GeneratorViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/GradientView.html">GradientView</a>
               </li>
               <li class="nav-group-task">
@@ -49,7 +46,7 @@
                 <a href="../Classes/HoursTableViewController.html">HoursTableViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/InitialViewController.html">InitialViewController</a>
+                <a href="../Classes/MenuViewController.html">MenuViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/NotificationsTableViewCell.html">NotificationsTableViewCell</a>
@@ -64,19 +61,16 @@
                 <a href="../Classes/OptionsTableViewController.html">OptionsTableViewController</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/QueuesTableViewCell.html">QueuesTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QueuesViewController.html">QueuesViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/RatingViewController.html">RatingViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/SchedulesTableViewCell.html">SchedulesTableViewCell</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SchedulesViewController.html">SchedulesViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/SearchResultViewController.html">SearchResultViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SearchViewController.html">SearchViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Ticket.html">Ticket</a>
@@ -85,21 +79,16 @@
                 <a href="../Classes/Ticket/Status.html">– Status</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TicketAllocatorViewController.html">TicketAllocatorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketSearcherViewController.html">TicketSearcherViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TicketTableViewCell.html">TicketTableViewCell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TicketViewController.html">TicketViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/ToastManager.html">ToastManager</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Enums/ToastPosition.html">ToastPosition</a>
               </li>
             </ul>
           </li>
@@ -107,13 +96,10 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/UIApplication.html">UIApplication</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage.html">UIImage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage/RotationOptions.html">– RotationOptions</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIView.html">UIView</a>
@@ -137,9 +123,6 @@
               <li class="nav-group-task">
                 <a href="../Structs/AppUtility.html">AppUtility</a>
               </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ToastStyle.html">ToastStyle</a>
-              </li>
             </ul>
           </li>
         </ul>
@@ -148,601 +131,10 @@
         <section>
           <section class="section">
             <h1>UIView</h1>
-            <p>Toast is a Swift extension that adds toast notifications to the <code>UIView</code> object class.
-It is intended to be simple, lightweight, and easy to use. Most toast notifications
-can be triggered with a single line of code.</p>
-
-<p>The <code>makeToast</code> methods create a new view and then display it as toast.</p>
-
-<p>The <code>showToast</code> methods display any view as toast.</p>
+            <p>This is an UIView extension to do aditional configuration and methods to the UIView default class.</p>
 
           </section>
           <section class="section task-group-section">
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Make%20Toast%20Methods"></a>
-                <a name="//apple_ref/swift/Section/Make Toast Methods" class="dashAnchor"></a>
-                <a href="#/Make%20Toast%20Methods">
-                  <h3 class="section-name">Make Toast Methods</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)makeToast:"></a>
-                    <a name="//apple_ref/swift/Method/makeToast(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)makeToast:">makeToast(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and presents a new toast view with a message and displays it with the
-default duration and position. Styled using the shared style.</p>
-
-<p>@param message The message to be displayed</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE9makeToastySS_Sd8durationAC0E8PositionO8positiontF"></a>
-                    <a name="//apple_ref/swift/Method/makeToast(_:duration:position:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE9makeToastySS_Sd8durationAC0E8PositionO8positiontF">makeToast(_:duration:position:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and presents a new toast view with a message. Duration and position
-can be set explicitly. Styled using the shared style.</p>
-
-<p>@param message The message to be displayed
-@param duration The toast duration
-@param position The toast&rsquo;s position</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt"><a href="../Enums/ToastPosition.html">ToastPosition</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)makeToast:duration:position:"></a>
-                    <a name="//apple_ref/swift/Method/makeToast(_:duration:position:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)makeToast:duration:position:">makeToast(_:duration:position:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and presents a new toast view with a message. Duration and position
-can be set explicitly. Styled using the shared style.</p>
-
-<p>@param message The message to be displayed
-@param duration The toast duration
-@param position The toast&rsquo;s center point</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE9makeToastySS_Sd8durationAC0E8PositionO8positionAC0E5StyleVSg5styletF"></a>
-                    <a name="//apple_ref/swift/Method/makeToast(_:duration:position:style:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE9makeToastySS_Sd8durationAC0E8PositionO8positionAC0E5StyleVSg5styletF">makeToast(_:duration:position:style:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and presents a new toast view with a message. Duration, position, and
-style can be set explicitly.</p>
-
-<p>@param message The message to be displayed
-@param duration The toast duration
-@param position The toast&rsquo;s position
-@param style The style. The shared style will be used when nil</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt"><a href="../Enums/ToastPosition.html">ToastPosition</a></span><span class="p">,</span> <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE9makeToastySS_Sd8durationSC7CGPointV8positionAC0E5StyleVSg5styletF"></a>
-                    <a name="//apple_ref/swift/Method/makeToast(_:duration:position:style:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE9makeToastySS_Sd8durationSC7CGPointV8positionAC0E5StyleVSg5styletF">makeToast(_:duration:position:style:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and presents a new toast view with a message. Duration, position, and
-style can be set explicitly.</p>
-
-<p>@param message The message to be displayed
-@param duration The toast duration
-@param position The toast&rsquo;s center point
-@param style The style. The shared style will be used when nil</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE9makeToastySSSg_Sd8durationAC0E8PositionO8positionAE5titleSo7UIImageCSg5imageAC0E5StyleVSg5styleySbcSg10completiontF"></a>
-                    <a name="//apple_ref/swift/Method/makeToast(_:duration:position:title:image:style:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE9makeToastySSSg_Sd8durationAC0E8PositionO8positionAE5titleSo7UIImageCSg5imageAC0E5StyleVSg5styleySbcSg10completiontF">makeToast(_:duration:position:title:image:style:completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and presents a new toast view with a message, title, and image. Duration,
-position, and style can be set explicitly. The completion closure executes when the
-toast completes presentation. <code>didTap</code> will be <code>true</code> if the toast view was dismissed
-from a tap.</p>
-
-<p>@param message The message to be displayed
-@param duration The toast duration
-@param position The toast&rsquo;s position
-@param title The title
-@param image The image
-@param style The style. The shared style will be used when nil
-@param completion The completion closure, executed after the toast view disappears.
-didTap will be <code>true</code> if the toast view was dismissed from a tap.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt"><a href="../Enums/ToastPosition.html">ToastPosition</a></span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span><span class="p">?,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">didTap</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE9makeToastySSSg_Sd8durationSC7CGPointV8positionAE5titleSo7UIImageCSg5imageAC0E5StyleVSg5styleySbcSg10completiontF"></a>
-                    <a name="//apple_ref/swift/Method/makeToast(_:duration:position:title:image:style:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE9makeToastySSSg_Sd8durationSC7CGPointV8positionAE5titleSo7UIImageCSg5imageAC0E5StyleVSg5styleySbcSg10completiontF">makeToast(_:duration:position:title:image:style:completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and presents a new toast view with a message, title, and image. Duration,
-position, and style can be set explicitly. The completion closure executes when the
-toast completes presentation. <code>didTap</code> will be <code>true</code> if the toast view was dismissed
-from a tap.</p>
-
-<p>@param message The message to be displayed
-@param duration The toast duration
-@param position The toast&rsquo;s center point
-@param title The title
-@param image The image
-@param style The style. The shared style will be used when nil
-@param completion The completion closure, executed after the toast view disappears.
-didTap will be <code>true</code> if the toast view was dismissed from a tap.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span><span class="p">?,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">didTap</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Show%20Toast%20Methods"></a>
-                <a name="//apple_ref/swift/Section/Show Toast Methods" class="dashAnchor"></a>
-                <a href="#/Show%20Toast%20Methods">
-                  <h3 class="section-name">Show Toast Methods</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)showToast:"></a>
-                    <a name="//apple_ref/swift/Method/showToast(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)showToast:">showToast(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Displays any view as toast using the default duration and position.</p>
-
-<p>@param toast The view to be displayed as toast</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">showToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">toast</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE9showToastyAB_Sd8durationAC0E8PositionO8positionySbcSg10completiontF"></a>
-                    <a name="//apple_ref/swift/Method/showToast(_:duration:position:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE9showToastyAB_Sd8durationAC0E8PositionO8positionySbcSg10completiontF">showToast(_:duration:position:completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Displays any view as toast at a provided position and duration. The completion closure
-executes when the toast view completes. <code>didTap</code> will be <code>true</code> if the toast view was
-dismissed from a tap.</p>
-
-<p>@param toast The view to be displayed as toast
-@param duration The notification duration
-@param position The toast&rsquo;s position
-@param completion The completion block, executed after the toast view disappears.
-didTap will be <code>true</code> if the toast view was dismissed from a tap.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">showToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">toast</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt"><a href="../Enums/ToastPosition.html">ToastPosition</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">didTap</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)showToast:duration:position:completion:"></a>
-                    <a name="//apple_ref/swift/Method/showToast(_:duration:position:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)showToast:duration:position:completion:">showToast(_:duration:position:completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Displays any view as toast at a provided position and duration. The completion closure
-executes when the toast view completes. <code>didTap</code> will be <code>true</code> if the toast view was
-dismissed from a tap.</p>
-
-<p>@param toast The view to be displayed as toast
-@param duration The notification duration
-@param position The toast&rsquo;s center point
-@param completion The completion block, executed after the toast view disappears.
-didTap will be <code>true</code> if the toast view was dismissed from a tap.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">showToast</span><span class="p">(</span><span class="n">_</span> <span class="nv">toast</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">didTap</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Activity%20Methods"></a>
-                <a name="//apple_ref/swift/Section/Activity Methods" class="dashAnchor"></a>
-                <a href="#/Activity%20Methods">
-                  <h3 class="section-name">Activity Methods</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE17makeToastActivityyAC0E8PositionOF"></a>
-                    <a name="//apple_ref/swift/Method/makeToastActivity(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE17makeToastActivityyAC0E8PositionOF">makeToastActivity(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and displays a new toast activity indicator view at a specified position.</p>
-
-<p>@warning Only one toast activity indicator view can be presented per superview. Subsequent
-calls to <code>makeToastActivity(position:)</code> will be ignored until <code><a href="../Extensions/UIView.html#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)hideToastActivity">hideToastActivity()</a></code> is called.</p>
-
-<p>@warning <code>makeToastActivity(position:)</code> works independently of the <code>showToast</code> methods. Toast
-activity views can be presented and dismissed while toast views are being displayed.
-<code>makeToastActivity(position:)</code> has no effect on the queueing behavior of the <code>showToast</code> methods.</p>
-
-<p>@param position The toast&rsquo;s position</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToastActivity</span><span class="p">(</span><span class="n">_</span> <span class="nv">position</span><span class="p">:</span> <span class="kt"><a href="../Enums/ToastPosition.html">ToastPosition</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)makeToastActivity:"></a>
-                    <a name="//apple_ref/swift/Method/makeToastActivity(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)makeToastActivity:">makeToastActivity(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates and displays a new toast activity indicator view at a specified position.</p>
-
-<p>@warning Only one toast activity indicator view can be presented per superview. Subsequent
-calls to <code>makeToastActivity(position:)</code> will be ignored until <code><a href="../Extensions/UIView.html#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)hideToastActivity">hideToastActivity()</a></code> is called.</p>
-
-<p>@warning <code>makeToastActivity(position:)</code> works independently of the <code>showToast</code> methods. Toast
-activity views can be presented and dismissed while toast views are being displayed.
-<code>makeToastActivity(position:)</code> has no effect on the queueing behavior of the <code>showToast</code> methods.</p>
-
-<p>@param position The toast&rsquo;s center point</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeToastActivity</span><span class="p">(</span><span class="n">_</span> <span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)hideToastActivity"></a>
-                    <a name="//apple_ref/swift/Method/hideToastActivity()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)hideToastActivity">hideToastActivity()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Dismisses the active toast activity indicator view.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">hideToastActivity</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Events"></a>
-                <a name="//apple_ref/swift/Section/Events" class="dashAnchor"></a>
-                <a href="#/Events">
-                  <h3 class="section-name">Events</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)handleToastTapped:"></a>
-                    <a name="//apple_ref/swift/Method/handleToastTapped(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)handleToastTapped:">handleToastTapped(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">handleToastTapped</span><span class="p">(</span><span class="n">_</span> <span class="nv">recognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)toastTimerDidFinish:"></a>
-                    <a name="//apple_ref/swift/Method/toastTimerDidFinish(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@RestauranteUniversitario@@objc(cs)UIView(im)toastTimerDidFinish:">toastTimerDidFinish(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">toastTimerDidFinish</span><span class="p">(</span><span class="n">_</span> <span class="nv">timer</span><span class="p">:</span> <span class="kt">Timer</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Toast%20Construction"></a>
-                <a name="//apple_ref/swift/Section/Toast Construction" class="dashAnchor"></a>
-                <a href="#/Toast%20Construction">
-                  <h3 class="section-name">Toast Construction</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:So6UIViewC24RestauranteUniversitarioE19toastViewForMessageABSSSg_AE5titleSo7UIImageCSg5imageAC10ToastStyleV5styletKF"></a>
-                    <a name="//apple_ref/swift/Method/toastViewForMessage(_:title:image:style:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:So6UIViewC24RestauranteUniversitarioE19toastViewForMessageABSSSg_AE5titleSo7UIImageCSg5imageAC10ToastStyleV5styletKF">toastViewForMessage(_:title:image:style:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates a new toast view with any combination of message, title, and image.
-The look and feel is configured via the style. Unlike the <code>makeToast</code> methods,
-this method does not present the toast view automatically. One of the <code>showToast</code>
-methods must be used to present the resulting view.</p>
-
-<p>@warning if message, title, and image are all nil, this method will throw
-<code>ToastError.InsufficientData</code></p>
-
-<p>@param message The message to be displayed
-@param title The title
-@param image The image
-@param style The style. The shared style will be used when nil
-@throws <code>ToastError.InsufficientData</code> when message, title, and image are all nil
-@return The newly created toast view</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toastViewForMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">UIView</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
             <div class="task-group">
               <ul>
                 <li class="item">
@@ -758,7 +150,7 @@ methods must be used to present the resulting view.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method allows the animation of an UIView to rotate 360 degrees.</p>
 
                       </div>
                       <div class="declaration">
@@ -768,6 +160,37 @@ methods must be used to present the resulting view.</p>
                           <pre class="highlight"><code><span class="kd">func</span> <span class="nf">rotate360Degrees</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">CFTimeInterval</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span> <span class="nv">completionDelegate</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The duration of the animation. Aka how long it takes to rotate 360 degrees.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionDelegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the delegate of the CAAnimationDelegate.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -785,7 +208,7 @@ methods must be used to present the resulting view.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method adds a gradient background to an UIView.</p>
 
                       </div>
                       <div class="declaration">
@@ -795,6 +218,49 @@ methods must be used to present the resulting view.</p>
                           <pre class="highlight"><code><span class="kd">func</span> <span class="nf">addGradient</span><span class="p">(</span><span class="nv">colors</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIColor</span><span class="p">],</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSNumber</span><span class="p">],</span> <span class="nv">isTicket</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>colors</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the colors of the gradient.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>locations</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the location that the gradient will be added in the view</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isTicket</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a boolean that is true if it&rsquo;s being added to the TicketControllerView and false otherwise.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -812,7 +278,7 @@ methods must be used to present the resulting view.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method is used to add a label to an UIView. It is used for the <q>Carregando&hellip;</q> message to be displayed properly in the middle of the parent view.</p>
 
                       </div>
                       <div class="declaration">
@@ -823,6 +289,25 @@ methods must be used to present the resulting view.</p>
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>text</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the text to be added which for this application is always <q>Carregando&hellip;</q>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -831,7 +316,7 @@ methods must be used to present the resulting view.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-09)</p>
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-24)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

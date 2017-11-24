@@ -14,7 +14,7 @@
     <a title="GeneratorViewController Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (22% documented)</p>
+        <p><a href="../index.html"> Docs</a> (34% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -107,13 +107,10 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/UIApplication.html">UIApplication</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage.html">UIImage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage/RotationOptions.html">– RotationOptions</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIView.html">UIView</a>
@@ -173,7 +170,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>UITextId for the user to type the identity</p>
 
                       </div>
                       <div class="declaration">
@@ -200,7 +197,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>UIPicker for the user to pick the attendance string, which is related to a queue id</p>
 
                       </div>
                       <div class="declaration">
@@ -227,7 +224,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>UIPicketTime for the user to select the requested time in the queue</p>
 
                       </div>
                       <div class="declaration">
@@ -254,7 +251,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>UIButton for the user to send the data to the server</p>
 
                       </div>
                       <div class="declaration">
@@ -271,9 +268,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)switchCPF"></a>
-                    <a name="//apple_ref/swift/Property/switchCPF" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)switchCPF">switchCPF</a>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)switchIdentity"></a>
+                    <a name="//apple_ref/swift/Property/switchIdentity" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(py)switchIdentity">switchIdentity</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -281,14 +278,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>UISwitch that allows the user to decide either if he or she whants to save the identity or not</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">switchCPF</span><span class="p">:</span> <span class="kt">UISwitch</span><span class="o">!</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">switchIdentity</span><span class="p">:</span> <span class="kt">UISwitch</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -308,7 +305,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>UIScrollView that holds all of the other UIViews</p>
 
                       </div>
                       <div class="declaration">
@@ -335,7 +332,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Array which is the data source for the picker attendance</p>
 
                       </div>
                       <div class="declaration">
@@ -362,14 +359,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>the API URL to update the picker attendance</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">base_url</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"http://ru-api-dev.t.ct.ufrj.br/queues?status=AVALIABLE&amp;extra=STATISTICS"</span></code></pre>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">base_url</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"API URL"</span><span class="o">.</span><span class="n">localized</span> <span class="o">+</span> <span class="s">"queues?status=AVALIABLE&amp;extra=STATISTICS"</span></code></pre>
 
                         </div>
                       </div>
@@ -389,7 +386,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>the queue id</p>
 
                       </div>
                       <div class="declaration">
@@ -416,7 +413,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Dictionary that maps each attendance to a queue id</p>
 
                       </div>
                       <div class="declaration">
@@ -524,7 +521,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Called after the controller&#39;s view is loaded into memory.
+This method is called after the view controller has loaded its view hierarchy into memory. This method is called regardless of whether the view hierarchy was loaded from a nib file or created programmatically in the loadView() method. You usually override this method to perform additional initialization on views that were loaded from nib files</p>
 
                       </div>
                       <div class="declaration">
@@ -551,7 +549,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the view controller that its view is about to be added to a view hierarchy.
+This method is called before the view controller&#39;s view is about to be added to a view hierarchy and before any animations are configured for showing the view. You can override this method to perform custom tasks associated with displaying the view. For example, you might use this method to change the orientation or style of the status bar to coordinate with the orientation or style of the view being presented. If you override this method, you must call super at some point in your implementation.
+For more information about the how views are added to view hierarchies by a view controller, and the sequence of messages that occur, see Supporting Accessibility.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    If a view controller is presented by a view controller inside of a popover, this method is not invoked on the presenting view controller after the presented controller is dismissed.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -561,6 +566,25 @@
                           <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If true, the view is being added to the window using an animation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -578,7 +602,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Sent to the view controller when the app receives a memory warning.
+Your app never calls this method directly. Instead, this method is called when the system determines that the amount of available memory is low.
+You can override this method to release any additional memory used by your view controller. If you do, your implementation of this method must call the super implementation at some point.</p>
 
                       </div>
                       <div class="declaration">
@@ -676,9 +702,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)saveCPF:"></a>
-                    <a name="//apple_ref/swift/Method/saveCPF(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)saveCPF:">saveCPF(_:)</a>
+                    <a name="/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)saveIdentity:"></a>
+                    <a name="//apple_ref/swift/Method/saveIdentity(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RestauranteUniversitario@objc(cs)GeneratorViewController(im)saveIdentity:">saveIdentity(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -693,7 +719,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">saveCPF</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">saveIdentity</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -902,7 +928,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the view controller that its view is about to be removed from a view hierarchy.
+This method is called in response to a view being removed from a view hierarchy. This method is called before the view is actually removed and before any animations are configured.
+Subclasses can override this method and use it to commit editing changes, resign the first responder status of the view, or perform other relevant tasks. For example, you might use this method to revert changes to the orientation or style of the status bar that were made in the viewDidAppear(_:) method when the view was first presented. If you override this method, you must call super at some point in your implementation.</p>
 
                       </div>
                       <div class="declaration">
@@ -912,6 +940,25 @@
                           <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If true, the disappearance of the view is being animated.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -929,7 +976,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the container that the size of its view is about to change.
+UIKit calls this method before changing the size of a presented view controller’s view. You can override this method in your own objects and use it to perform additional tasks related to the size change. For example, a container view controller might use this method to override the traits of its embedded child view controllers. Use the provided coordinator object to animate any changes you make.
+If you override this method in your custom view controllers, always call super at some point in your implementation so that UIKit can forward the size change message appropriately. View controllers forward the size change message to their views and child view controllers. Presentation controllers forward the size change to their presented view controller.</p>
 
                       </div>
                       <div class="declaration">
@@ -939,6 +988,37 @@
                           <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillTransition</span><span class="p">(</span><span class="n">to</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">,</span> <span class="n">with</span> <span class="nv">coordinator</span><span class="p">:</span> <span class="kt">UIViewControllerTransitionCoordinator</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The new size for the container’s view.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>coordinator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The transition coordinator object managing the size change. You can use this object to animate your changes or get information about the transition that is in progress.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1002,7 +1082,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-09)</p>
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-22)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

@@ -14,7 +14,7 @@
     <a title="GradientView Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (22% documented)</p>
+        <p><a href="../index.html"> Docs</a> (88% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -37,9 +37,6 @@
                 <a href="../Classes/FloatRatingView.html">FloatRatingView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/GeneratorViewController.html">GeneratorViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/GradientView.html">GradientView</a>
               </li>
               <li class="nav-group-task">
@@ -49,7 +46,7 @@
                 <a href="../Classes/HoursTableViewController.html">HoursTableViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/InitialViewController.html">InitialViewController</a>
+                <a href="../Classes/MenuViewController.html">MenuViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/NotificationsTableViewCell.html">NotificationsTableViewCell</a>
@@ -64,19 +61,16 @@
                 <a href="../Classes/OptionsTableViewController.html">OptionsTableViewController</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/QueuesTableViewCell.html">QueuesTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QueuesViewController.html">QueuesViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/RatingViewController.html">RatingViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/SchedulesTableViewCell.html">SchedulesTableViewCell</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SchedulesViewController.html">SchedulesViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/SearchResultViewController.html">SearchResultViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SearchViewController.html">SearchViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Ticket.html">Ticket</a>
@@ -85,21 +79,16 @@
                 <a href="../Classes/Ticket/Status.html">– Status</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TicketAllocatorViewController.html">TicketAllocatorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketSearcherViewController.html">TicketSearcherViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TicketTableViewCell.html">TicketTableViewCell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TicketViewController.html">TicketViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/ToastManager.html">ToastManager</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Enums/ToastPosition.html">ToastPosition</a>
               </li>
             </ul>
           </li>
@@ -107,13 +96,10 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/UIApplication.html">UIApplication</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage.html">UIImage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage/RotationOptions.html">– RotationOptions</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIView.html">UIView</a>
@@ -137,9 +123,6 @@
               <li class="nav-group-task">
                 <a href="../Structs/AppUtility.html">AppUtility</a>
               </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ToastStyle.html">ToastStyle</a>
-              </li>
             </ul>
           </li>
         </ul>
@@ -154,7 +137,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>This class creates a gradient view with a set of colors.</p>
 
           </section>
           <section class="section task-group-section">
@@ -173,7 +156,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Init (constructor)</p>
 
                       </div>
                       <div class="declaration">
@@ -183,6 +166,61 @@
                           <pre class="highlight"><code><span class="nf">init</span><span class="p">(</span><span class="n">addTo</span> <span class="nv">parentView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">colors</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIColor</span><span class="p">],</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSNumber</span><span class="p">],</span> <span class="nv">isTicket</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parentView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The view to which the gradient is going to be added.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>colors</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The gradient colors.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>locations</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The locations of the colors in the view.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isTicket</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>True if the gradient is being added to a ticket view. False otherwire.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -200,7 +238,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>init (constructor)</p>
 
                       </div>
                       <div class="declaration">
@@ -210,6 +248,25 @@
                           <pre class="highlight"><code><span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aDecoder</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>an NSCoder object</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -227,7 +284,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Lays out subviews.
+The default implementation of this method does nothing on iOS 5.1 and earlier. Otherwise, the default implementation uses any constraints you have set to determine the size and position of any subviews.
+Subclasses can override this method as needed to perform more precise layout of their subviews. You should override this method only if the autoresizing and constraint-based behaviors of the subviews do not offer the behavior you want. You can use your implementation to set the frame rectangles of your subviews directly.
+You should not call this method directly. If you want to force a layout update, call the setNeedsLayout() method instead to do so prior to the next drawing update. If you want to update the layout of your views immediately, call the layoutIfNeeded() method.</p>
 
                       </div>
                       <div class="declaration">
@@ -254,7 +314,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Unlinks the view from its superview and its window, and removes it from the responder chain.
+If the view’s superview is not nil, the superview releases the view.
+Calling this method removes any constraints that refer to the view you are removing, or that refer to any view in the subtree of the view you are removing.</p>
+<div class="aside aside-important">
+    <p class="aside-title">Important</p>
+    Never call this method from inside your view’s draw(_:) method.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -273,7 +340,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-09)</p>
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-24)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

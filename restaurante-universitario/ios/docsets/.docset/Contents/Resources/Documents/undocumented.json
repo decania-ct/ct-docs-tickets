@@ -64,52 +64,381 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
-      "line": 38,
-      "symbol": "ToastPosition",
-      "symbol_kind": "source.lang.swift.decl.enum",
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/GradientView.swift",
+      "line": 11,
+      "symbol": "GradientView",
+      "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
-      "line": 39,
-      "symbol": "ToastPosition.top",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/GradientView.swift",
+      "line": 15,
+      "symbol": "GradientView.init(addTo:colors:locations:isTicket:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
-      "line": 40,
-      "symbol": "ToastPosition.center",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/GradientView.swift",
+      "line": 58,
+      "symbol": "GradientView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/GradientView.swift",
+      "line": 62,
+      "symbol": "GradientView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/GradientView.swift",
+      "line": 70,
+      "symbol": "GradientView.removeFromSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 11,
+      "symbol": "HoursTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 13,
+      "symbol": "HoursTableViewCell.restaurantName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 14,
+      "symbol": "HoursTableViewCell.weekLunch",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 15,
+      "symbol": "HoursTableViewCell.weekDinner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 16,
+      "symbol": "HoursTableViewCell.weekendLunch",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 17,
+      "symbol": "HoursTableViewCell.weekendDinner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 18,
+      "symbol": "HoursTableViewCell.studentPrice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewCell.swift",
+      "line": 19,
+      "symbol": "HoursTableViewCell.workerPrice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/HoursTableViewController.swift",
+      "line": 13,
+      "symbol": "UIApplication.statusBarView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsTableViewCell.swift",
+      "line": 11,
+      "symbol": "NotificationsTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsTableViewCell.swift",
+      "line": 13,
+      "symbol": "NotificationsTableViewCell.identityLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsTableViewCell.swift",
+      "line": 14,
+      "symbol": "NotificationsTableViewCell.deleteIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsTableViewCell.swift",
+      "line": 16,
+      "symbol": "NotificationsTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsTableViewCell.swift",
+      "line": 20,
+      "symbol": "NotificationsTableViewCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 12,
+      "symbol": "NotificationsViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 14,
+      "symbol": "NotificationsViewController.buttonSend",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 15,
+      "symbol": "NotificationsViewController.notificationsTable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 16,
+      "symbol": "NotificationsViewController.textID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 17,
+      "symbol": "NotificationsViewController.switchId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 18,
+      "symbol": "NotificationsViewController.scrollView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 20,
+      "symbol": "NotificationsViewController.ids",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 22,
+      "symbol": "NotificationsViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 29,
+      "symbol": "NotificationsViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 35,
+      "symbol": "NotificationsViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
       "line": 41,
-      "symbol": "ToastPosition.bottom",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
-      "line": 420,
-      "symbol": "UIView.handleToastTapped(_:)",
+      "symbol": "NotificationsViewController.didBecomeActive()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
-      "line": 427,
-      "symbol": "UIView.toastTimerDidFinish(_:)",
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 63,
+      "symbol": "NotificationsViewController.dismissKeyboard()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/Toast.swift",
-      "line": 593,
-      "symbol": "ToastStyle.init()",
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 68,
+      "symbol": "NotificationsViewController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 73,
+      "symbol": "NotificationsViewController.sendFunction()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 85,
+      "symbol": "NotificationsViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 89,
+      "symbol": "NotificationsViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 93,
+      "symbol": "NotificationsViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/NotificationsViewController.swift",
+      "line": 103,
+      "symbol": "NotificationsViewController.imageTapped(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/OptionsTableViewCell.swift",
+      "line": 11,
+      "symbol": "OptionsTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/OptionsTableViewCell.swift",
+      "line": 13,
+      "symbol": "OptionsTableViewCell.icon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/OptionsTableViewCell.swift",
+      "line": 14,
+      "symbol": "OptionsTableViewCell.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 11,
+      "symbol": "QueuesTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 13,
+      "symbol": "QueuesTableViewCell.dataLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 14,
+      "symbol": "QueuesTableViewCell.dataDataLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 15,
+      "symbol": "QueuesTableViewCell.descriptionLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 16,
+      "symbol": "QueuesTableViewCell.descriptionDataLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 17,
+      "symbol": "QueuesTableViewCell.hourLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 18,
+      "symbol": "QueuesTableViewCell.hourDataLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 19,
+      "symbol": "QueuesTableViewCell.leftView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 20,
+      "symbol": "QueuesTableViewCell.rightView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/QueuesTableViewCell.swift",
+      "line": 21,
+      "symbol": "QueuesTableViewCell.noSchedulesLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/TicketTableViewCell.swift",
+      "line": 11,
+      "symbol": "TicketTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/TicketTableViewCell.swift",
+      "line": 13,
+      "symbol": "TicketTableViewCell.attendanceLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/TicketTableViewCell.swift",
+      "line": 14,
+      "symbol": "TicketTableViewCell.QRCodeImageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe/AndroidStudioProjects/RestauranteUniversitario/iOS/RestauranteUniversitario/TicketTableViewCell.swift",
+      "line": 15,
+      "symbol": "TicketTableViewCell.hourLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     }
   ],

@@ -14,7 +14,7 @@
     <a title="AppUtility Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (22% documented)</p>
+        <p><a href="../index.html"> Docs</a> (88% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -37,9 +37,6 @@
                 <a href="../Classes/FloatRatingView.html">FloatRatingView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/GeneratorViewController.html">GeneratorViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/GradientView.html">GradientView</a>
               </li>
               <li class="nav-group-task">
@@ -49,7 +46,7 @@
                 <a href="../Classes/HoursTableViewController.html">HoursTableViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/InitialViewController.html">InitialViewController</a>
+                <a href="../Classes/MenuViewController.html">MenuViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/NotificationsTableViewCell.html">NotificationsTableViewCell</a>
@@ -64,19 +61,16 @@
                 <a href="../Classes/OptionsTableViewController.html">OptionsTableViewController</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/QueuesTableViewCell.html">QueuesTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QueuesViewController.html">QueuesViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/RatingViewController.html">RatingViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/SchedulesTableViewCell.html">SchedulesTableViewCell</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SchedulesViewController.html">SchedulesViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/SearchResultViewController.html">SearchResultViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/SearchViewController.html">SearchViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Ticket.html">Ticket</a>
@@ -85,21 +79,16 @@
                 <a href="../Classes/Ticket/Status.html">– Status</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TicketAllocatorViewController.html">TicketAllocatorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TicketSearcherViewController.html">TicketSearcherViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TicketTableViewCell.html">TicketTableViewCell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TicketViewController.html">TicketViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/ToastManager.html">ToastManager</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Enums/ToastPosition.html">ToastPosition</a>
               </li>
             </ul>
           </li>
@@ -107,13 +96,10 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/UIApplication.html">UIApplication</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage.html">UIImage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIImage/RotationOptions.html">– RotationOptions</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIView.html">UIView</a>
@@ -137,9 +123,6 @@
               <li class="nav-group-task">
                 <a href="../Structs/AppUtility.html">AppUtility</a>
               </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ToastStyle.html">ToastStyle</a>
-              </li>
             </ul>
           </li>
         </ul>
@@ -154,7 +137,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>This struct provides utilities for the application that might be used by other classes and structs.</p>
 
           </section>
           <section class="section task-group-section">
@@ -173,7 +156,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Convert an hexadecimal string to an UIColor object.</p>
 
                       </div>
                       <div class="declaration">
@@ -183,6 +166,29 @@
                           <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">hexStringToUIColor</span> <span class="p">(</span><span class="nv">hex</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the hexadecimal string to be encoded.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The UIColor object of the hexadecimal color.</p>
                       </div>
                     </section>
                   </div>
@@ -200,7 +206,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method encodes a string to a QRCode image.</p>
 
                       </div>
                       <div class="declaration">
@@ -210,6 +216,29 @@
                           <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">generateQRCode</span><span class="p">(</span><span class="n">from</span> <span class="nv">string</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>string</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the string to be encoded.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>UIImage of the QRCode encoding the string.</p>
                       </div>
                     </section>
                   </div>
@@ -227,7 +256,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method saves the identity value typed in a given text field, if a given switch is on</p>
 
                       </div>
                       <div class="declaration">
@@ -237,6 +266,37 @@
                           <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">saveIdentity</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">,</span> <span class="n">_</span> <span class="nv">switchIdentity</span><span class="p">:</span> <span class="kt">UISwitch</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textFieldId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the text field where the identity is being typed</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>switchIdentity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the switch that gives the user the option to save the identity or not</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -254,7 +314,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method adds a listener to the switch which gives to the user the option to save the identity value typed in a given text field</p>
 
                       </div>
                       <div class="declaration">
@@ -264,6 +324,37 @@
                           <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">switchChangeListener</span><span class="p">(</span><span class="n">_</span> <span class="nv">switchButton</span><span class="p">:</span> <span class="kt">UISwitch</span><span class="p">,</span> <span class="n">_</span> <span class="nv">textID</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the text field where the identity is being typed</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>switchButton</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the switch that gives the user the option to save the identity or not</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -281,7 +372,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method retrieves the identity saved in the device and puts it in the textField, it also sets the given switch to on if there are any identity saved or to off otherwise</p>
 
                       </div>
                       <div class="declaration">
@@ -291,6 +382,37 @@
                           <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">retrieveIdentity</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">,</span> <span class="n">_</span> <span class="nv">switchIdentity</span><span class="p">:</span> <span class="kt">UISwitch</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textFieldId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the text field where the identity is set</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>switchIdentity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the switch that gives the user the option to save the identity or not</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -308,7 +430,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method modifies the appearance of the switch buttons to a color that suits better the app and to a smaller sizer</p>
 
                       </div>
                       <div class="declaration">
@@ -322,12 +444,74 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RestauranteUniversitario10AppUtilityV11resizeImageSo7UIImageCAF5image_SC6CGSizeV10targetSizetFZ"></a>
+                    <a name="//apple_ref/swift/Method/resizeImage(image:targetSize:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RestauranteUniversitario10AppUtilityV11resizeImageSo7UIImageCAF5image_SC6CGSizeV10targetSizetFZ">resizeImage(image:targetSize:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method resizes an UIImage to another UIImage of a given size keeping the aspect ratio.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">resizeImage</span><span class="p">(</span><span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">,</span> <span class="nv">targetSize</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIImage</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>image</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The UIImage to be resized</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>targetSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The desired size of the image</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>UIImage resized with the given size</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-09)</p>
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-11-24)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
